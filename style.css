@@ -1,0 +1,84 @@
+@import "../reset.css";
+
+
+body{
+    color: #23422a;
+    font-family: Manrope, sans-serif;
+    margin: 0;
+    background: #fdf9ef;
+    line-height: 1.2;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-block: 1.8rem;
+    padding-inline: 1rem;
+}
+
+.nav-title{
+    font-family: Lusitana, serif;
+    font-size: 1.5rem;
+    color: #566342;
+    font-weight: 700;
+}
+
+.nav-link{
+    display: none;
+}
+
+.nav-interactions{
+    display: flex;
+    gap: 0.8rem;
+}
+
+.nav-icons{
+    width: 2rem;
+    height: auto;
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background: url("https://picsum.photos/id/1040/2000/870") center center /cover no-repeat;
+    text-align: center;
+    margin: auto;
+}
+
+.hero-content{
+    background: #fdf9efd0;
+    text-align: center;
+    margin-inline: 2rem;
+    padding: 2rem;
+    height: auto ;
+}
+
+.hero-category{
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+}
+
+.hero-title{
+    font-family: Lusitana, serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+}
+
+.hero-description{
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
+
+.collection-link{
+    background: #23422a;
+    color: #fff;
+    font-size: 0.88rem;
+    font-weight: 700;
+    padding: 1rem 2.5rem;
+    margin: 2rem;
+    text-transform: uppercase
+}
