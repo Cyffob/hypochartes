@@ -56,4 +56,4 @@ function afficherTableau(donnees, colonnes, idTableau) {
     tableau.innerHTML = html
 }
 
-MotsMartin('/data/motsmartin/10au17sept.csv', 'mots-martin-2')
+MotsMartin('../data/motsmartin/10au17sept.csv', 'mots-martin-2')
