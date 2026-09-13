@@ -215,8 +215,14 @@ body{
     line-height: 1.6;
     margin-bottom: 2rem;
 }
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
 .motsmartin{
-    width: 90%;
+    width: 100%;
     margin: 2rem auto;
     max-width: 1400px;    /* pour éviter que ce soit trop large sur grand écran */
     border-collapse: collapse;
@@ -238,7 +244,46 @@ body{
     background: var(--rouge-100);
 }
 
+.mots-martin-title{
+    font-family: Lusitana, serif;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    background: var(--creme-600);
+    width: fit-content;
+    padding: 1rem;
+    margin: 1rem auto;
+}
 
+#recherche-mots {
+    width: 90%;
+    max-width: 1200px;
+    display: block;
+    margin: 1.2rem auto 0.6rem;
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.3rem;
+}
+
+#recherche-mots:focus {
+    outline: none;
+    border-color: #2c3e50;
+}
+
+#reinitialiser-mots {
+    padding: 0.5rem 0.6rem;
+    margin-left: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 0.4rem;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#reinitialiser-mots:hover {
+    background-color: #e0e0e0;
+}
 
 
 /*Version mobile pour la barre de navigation au clic*/
